@@ -1,0 +1,3 @@
+- [Codex CLI config format](codex-cli-config.md) — modern Codex uses ~/.codex/config.toml (TOML) with `[model_providers.*]` + `[mcp_servers.*]`; Ollama needs `wire_api="responses"` (chat removed Feb 2026) + Ollama ≥ 0.13.3.
+- [Windows .bat heredoc gen](windows-bat-config-gen.md) — generating config files via cmd `> file ( echo ... )` must use `echo(` for blank lines, not `echo .`.
+- [MCP package reality](mcp-packages.md) — only some `@modelcontextprotocol/server-*` npm packages actually exist; git MCP is Python (`uvx mcp-server-git`), not npm.
